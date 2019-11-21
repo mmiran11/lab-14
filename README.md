@@ -1,2 +1,2 @@
 # lab-14
-to make assignment easier
+to make working on assignment easier
