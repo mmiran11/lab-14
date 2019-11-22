@@ -7,7 +7,7 @@ public class LinearBinarySearch {
 
 	}
 	
-	public static void LinearSearch(int[] someArray, int target)
+	public static int LinearSearch(int[] someArray, int target)
 	{
 		int comparisons = 0;
 		for(int i = 0; i < someArray.length; i++) 
