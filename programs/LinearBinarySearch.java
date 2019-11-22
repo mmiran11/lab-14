@@ -25,9 +25,24 @@ public class LinearBinarySearch {
 		
 	}
 	
-	public static int BubbleSort(int[] someArray)
+	public static int BubbleSort(int[] someArray) //for exercise 2
 	{
-		
+		for(int i = 0; i < someArray.length; i++)
+		{
+			int comparisons = 0;
+			int swaps = 0;
+			for(int i = 0; i < someArray.length - 1; i++)
+			{
+				if(someArray[i] > someArray[i + 1])
+				{
+					int temp = someArray[i + 1];
+					someArray[i] = someArray[i + 1];
+					someArray[i  + 1] = temp;
+					swaps++;
+				}
+				comparisons++;
+			}
+		}
 	}
 
 }
