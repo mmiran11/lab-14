@@ -19,5 +19,15 @@ public class LinearBinarySearch {
 			}
 		}
 	}
+	
+	public static int BinarySearch(int[] someArray, int target)
+	{
+		
+	}
+	
+	public static int BubbleSort(int[] someArray)
+	{
+		
+	}
 
 }
