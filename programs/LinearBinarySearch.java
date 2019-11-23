@@ -45,7 +45,7 @@ public class LinearBinarySearch {
 		int highIndex = someArray.length;
 		int lowIndex = 0;
 		int midIndex = (highIndex + lowIndex) / 2;
-		boolean found = false;
+		boolean found = false; 
 		while (!found) 
 		{
 			comparisons++;
