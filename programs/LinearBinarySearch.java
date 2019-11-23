@@ -23,7 +23,7 @@ public class LinearBinarySearch {
 		int compCount = LinearSearch(myArray, 5);
 		System.out.println("Found 5 after"  + compCount + " comparisons");
 		int binCompCount5 = BinarySearch(myArray, 5);
-		System.out.println("Found 1 after " + binCompCount5 + " comparisons");
+		System.out.println("Found 1 after " + binCompCount5 + " comparisons");;
 	}
 	
 	public static int LinearSearch(int[] someArray, int target)
